@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600;6..96,700;6..96,800;6..96,900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:ital,wght@0,200;0,400;1,600&family=Water+Brush&display=swap');
+
 /*fonts
 ====================*/
 @font-face {
@@ -10,7 +13,7 @@
   src: url("../vendor/fonts/din-next-lt-w23-regular.ttf");
   font-weight: bold;
 }
-@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600;6..96,700;6..96,800;6..96,900&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:ital,wght@0,200;0,400;1,600&family=Water+Brush&display=swap');
+
 
 
 
@@ -155,10 +158,11 @@ button{
 .banner .portifoliContent1 p{
   font-size: 18px;
   margin-top: 10px;
+  margin-bottom: 20px;
 }
-.banner .portifoliContent1 button{
+.banner .portifoliContent1 a{
     margin: 20px 0;
-    padding: 8px 20px;
+    padding: 10px 20px;
     border-radius: 7px;
     background-color: var(--white);
     transition:all .3s ease-in-out ;
@@ -167,7 +171,7 @@ button{
     -ms-transition:all .3s ease-in-out ;
     -o-transition:all .3s ease-in-out ;
 }
-.banner .portifoliContent1 button:hover{
+.banner .portifoliContent1 a:hover{
   background-color: var(--mainColor);
   color: var(--white);
 
