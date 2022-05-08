@@ -1,0 +1,26 @@
+@media (max-width: 1199px) {
+ 
+}
+@media (max-width: 991px) {
+    
+
+}
+@media (max-width: 767px) {
+    .portifolioLinks{
+        display: none;
+    }
+    .collapse1{
+        display: none;
+    }
+    .collapse2{
+        display: block;
+    }
+}
+@media (max-width: 565px) {
+  
+}
+@media (max-width: 350px) {
+  
+}
+
+/*# sourceMappingURL=media.css.map */
