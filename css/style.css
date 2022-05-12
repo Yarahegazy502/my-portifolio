@@ -82,6 +82,8 @@ ul {
 
 img{
   width: 100%;
+  filter: blur(0px) ;
+  -webkit-filter: blur(0px) ;
 }
 button{
   border: 0;
@@ -131,7 +133,7 @@ button{
 ==================*/
 .banner{
   height: 100vh;
-  background-image: url(../images/banner.png);
+  background-image: url(../images/banner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -149,7 +151,7 @@ button{
 }
 .banner .portifoliContent1 .title span{
   color: var(--mainColor);
-  font-family: 'Water Brush', cursive;
+  font-family: 'Gwendolyn', cursive;
 
 }
 .banner .portifoliContent1 small{
@@ -158,11 +160,10 @@ button{
 .banner .portifoliContent1 p{
   font-size: 18px;
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .banner .portifoliContent1 a{
-    margin: 20px 0;
-    padding: 10px 20px;
+    padding: 15px 20px;
     border-radius: 7px;
     background-color: var(--white);
     transition:all .3s ease-in-out ;
