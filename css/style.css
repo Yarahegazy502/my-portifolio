@@ -295,3 +295,75 @@ h3,h4,h5{
 hr{
   background-color: #777 !important;
 }
+
+::-webkit-scrollbar {
+  width: 0.3125rem;
+}
+
+::-moz-scrollbar {
+  width: 0.3125rem;
+}
+
+::-o-scrollbar {
+  width: 0.3125rem;
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 0.25rem;
+}
+
+::-moz-scrollbar:horizontal {
+  height: 0.25rem;
+}
+
+::-o-scrollbar:horizontal {
+  height: 0.25rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #84548e4d;
+  border-radius: 10px;
+}
+
+::-moz-scrollbar-track {
+  background: #84548e4d;
+  border-radius: 10px;
+}
+
+::-o-scrollbar-track {
+  background: #84548e4d;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff3c3c33;
+  opacity: 0.7;
+  border-radius: 10px;
+}
+
+::-moz-scrollbar-thumb {
+  background: #ff3c3c33;
+  opacity: 0.7;
+  border-radius: 10px;
+}
+
+::-o-scrollbar-thumb {
+  background: #ff3c3c33;
+  opacity: 0.7;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ff3c3c33;
+}
+
+::-moz-scrollbar-thumb:hover {
+  background: #ff3c3c33;
+}
+
+::-o-scrollbar-thumb:hover {
+  background: #ff3c3c33;
+}
